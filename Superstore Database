@@ -53,5 +53,5 @@ where category is 'Kitchen Supplies'
 select*
 from superstore
 where category is 'Electronics'
-group by(item_name)
+order by(item_name)
 ;
